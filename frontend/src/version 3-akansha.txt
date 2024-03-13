@@ -1,0 +1,16 @@
+name of file ---App.js
+line no. --- 
+path of file
+changes made
+
+
+1. new form is being created name add ngo that specifically is being used by ngo to create its own account in the site.
+2. this form includes following entries that are required to be filled :
+    a. Name*(String)
+    b. Location*(String)
+    c. Image URL: (String)
+    d. Employee Count(Number)
+    e. Services offered* (String)
+    f. Website URL (String)
+    g. Phone no*(Number)
+    h. Mail Id (String)
