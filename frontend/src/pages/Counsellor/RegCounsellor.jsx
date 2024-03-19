@@ -10,13 +10,6 @@ import { Navbar } from '../../components/Navbar';
 function RegCounsellor() {
   const [formData, setFormData] = useState({
     name: '',
-    location: '',
-    imageUrl: '',
-    employeeCount: '',
-    servicesOffered: '',
-    websiteUrl: '',
-    phoneNo: '',
-    mailId: '',
     DOB: '',
     email: '',
     password: '',
@@ -26,7 +19,7 @@ function RegCounsellor() {
     specialization: ''
   });
 
-  const { name, location, imageUrl, employeeCount, servicesOffered, websiteUrl, phoneNo, mailId, DOB, email, password, confirmPassword, gender, certification, specialization } = formData;
+  const { name, DOB, email, password, confirmPassword, gender, certification, specialization } = formData;
   // eslint-disable-next-line no-unused-vars
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -58,9 +51,9 @@ function RegCounsellor() {
       <Navbar />
       <section className='heading'>
         <h1>
-          <FaSignInAlt /> New NGO registration
+          <FaSignInAlt /> Counsellor Registration
         </h1>
-        <p>Enter your NGO details for following fields</p>
+        <p>Enter your details</p>
       </section>
       <section className='form'>
         <form onSubmit={onSubmit}>
