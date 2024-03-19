@@ -19,6 +19,7 @@ import ViewStatus from './pages/Volunteer/ViewStatus';
 import FAQs from './pages/FAQs';
 import NgoRegistration from './pages/NGOs_form/NgoRegistration';
 import NgoUpdate from './pages/NGOs_form/NgoUpdate';
+import RegCounsellor from './pages/Counsellor/RegCounsellor';
 
 function App() {
   return (
@@ -55,6 +56,9 @@ function App() {
             {/* NGOs forms */}
             <Route path='/ngoReg' element={<NgoRegistration/>} />
             <Route path='/ngoUpdate' element={<NgoUpdate/>} />
+
+            {/* Counsellor form */}
+            <Route path='/RegCounsellor' element={<RegCounsellor/>} />
           </Routes>
       </div>
       </Router>
