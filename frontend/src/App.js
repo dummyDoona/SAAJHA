@@ -20,6 +20,7 @@ import FAQs from './pages/FAQs';
 import NgoRegistration from './pages/NGOs_form/NgoRegistration';
 import NgoUpdate from './pages/NGOs_form/NgoUpdate';
 import RegCounsellor from './pages/Counsellor/RegCounsellor';
+import LoginCounsellor from './pages/Counsellor/LoginCounsellor';
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
 
             {/* Counsellor form */}
             <Route path='/RegCounsellor' element={<RegCounsellor/>} />
+            <Route path='/LoginCounsellor' element={<LoginCounsellor/>} />
           </Routes>
       </div>
       </Router>
