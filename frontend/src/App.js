@@ -21,6 +21,8 @@ import NgoRegistration from './pages/NGOs_form/NgoRegistration';
 import NgoUpdate from './pages/NGOs_form/NgoUpdate';
 import RegCounsellor from './pages/Counsellor/RegCounsellor';
 import LoginCounsellor from './pages/Counsellor/LoginCounsellor';
+import RegCase from './pages/CASES/RegCase';
+import LoginCase from './pages/CASES/LoginCase';
 
 function App() {
   return (
@@ -61,6 +63,10 @@ function App() {
             {/* Counsellor form */}
             <Route path='/RegCounsellor' element={<RegCounsellor/>} />
             <Route path='/LoginCounsellor' element={<LoginCounsellor/>} />
+
+            {/* Case form */}
+            <Route path='/RegCase' element={<RegCase/>} />
+            <Route path='/LoginCase' element={<LoginCase/>} />
           </Routes>
       </div>
       </Router>
